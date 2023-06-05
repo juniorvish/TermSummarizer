@@ -1,0 +1,35 @@
+@import 'https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/2.2.16/tailwind.min.css';
+
+/* Custom styles for TermSummarizer */
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 1rem;
+}
+
+.input-group {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.summary-output,
+.safety-output {
+  border: 1px solid #e5e7eb;
+  border-radius: 0.25rem;
+  padding: 1rem;
+  margin-top: 1rem;
+}
+
+.submit-button {
+  background-color: #3b82f6;
+  color: #ffffff;
+  padding: 0.5rem 1rem;
+  border-radius: 0.25rem;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.submit-button:hover {
+  background-color: #2563eb;
+}
