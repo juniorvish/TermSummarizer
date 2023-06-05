@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TermSummarizer</title>
+    <link rel="stylesheet" href="css/tailwind.css">
+</head>
+<body class="bg-gray-100">
+    <div class="container mx-auto px-4 py-10">
+        <h1 class="text-4xl font-bold mb-6">TermSummarizer</h1>
+        <p class="mb-4">Enter the Terms of Service URL:</p>
+        <input type="text" id="terms_url_input" class="w-full p-2 mb-4 border border-gray-300 rounded" placeholder="https://example.com/terms-of-service">
+        <button id="submit_button" class="bg-blue-500 text-white px-4 py-2 rounded" onclick="submit_url()">Submit</button>
+        <div id="summary_output" class="mt-6 p-4 bg-white border border-gray-300 rounded">
+            <h2 class="text-2xl font-bold mb-4">Summary</h2>
+            <p></p>
+        </div>
+        <div id="safety_output" class="mt-4 p-4 bg-white border border-gray-300 rounded">
+            <h2 class="text-2xl font-bold mb-4">Safety Remark</h2>
+            <p></p>
+        </div>
+    </div>
+    <script src="js/main.js"></script>
+</body>
+</html>
